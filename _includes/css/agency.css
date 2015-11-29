@@ -178,17 +178,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     padding: 0px;
-    background-image: url(../img/base_logo_titre_noir.png);
+    background-image: url(../img/base_logo_titre.png);
     background-repeat: no-repeat;
-    background-size: auto 125px;
-    min-width: 300px;
-    min-height: 125px;
+    background-size: auto 60px;
+    min-width: 170px;
+    min-height: 60px;
     color: #{{ site.color.primary }};
 }
-
-/*.navbar-default .navbar-brand img {*/
-    /*height: 125px;*/
-/*}*/
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -220,7 +216,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #000;
+    color: #fff;
 }
 
 .navbar-default .nav li a:hover,
@@ -256,6 +252,14 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        background-image: url(../img/base_logo_titre_noir.png);
+        background-size: auto 200px;
+        min-width: 470px;
+        min-height: 200px;
+    }
+
+    .navbar-default .nav li a {
+        color: #000;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -321,7 +325,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 350px;
         padding-bottom: 200px;
     }
 
