@@ -177,8 +177,18 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    padding: 0px;
+    background-image: url(../img/base_logo_titre_noir.png);
+    background-repeat: no-repeat;
+    background-size: auto 125px;
+    min-width: 300px;
+    min-height: 125px;
     color: #{{ site.color.primary }};
 }
+
+/*.navbar-default .navbar-brand img {*/
+    /*height: 125px;*/
+/*}*/
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -210,7 +220,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #000;
 }
 
 .navbar-default .nav li a:hover,
@@ -259,6 +269,18 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        background-image: url(../img/base_logo_titre.png);
+        background-size: auto 65px;
+        min-width: 170px;
+        min-height: 65px;
+    }
+
+    .navbar-default.navbar-shrink .nav li a {
+        color: #fff;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand img {
+        height: 65px;
     }
 }
 
@@ -266,8 +288,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
-    background-position: center center;
+    background-image: url(../img/header-bg-nb2.png);
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -295,6 +316,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    color: #{{ site.color.secondary }};
 }
 
 @media(min-width:768px) {

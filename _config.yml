@@ -1,12 +1,12 @@
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
+title: Rehia
+email: jerome@rehia.fr
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: fed136
-  secondary: fec503  
+  primary: 1B98E0
+  secondary: "254484"
   secondary-dark: 333
 
 # Team names, titles and social links
@@ -47,7 +47,7 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: http://twitter.com/jeromeavoustin
   - title: facebook
     url:
   - title: stack-overflow
@@ -55,7 +55,7 @@ social:
   - title: bitbucket 
     url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/rehia
 
 # Postal address (add as many lines as necessary)
 address:
