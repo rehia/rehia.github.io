@@ -1,66 +1,65 @@
 # Site settings
 title: Rehia
 email: jerome@rehia.fr
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Rehia, c'est la passion du développement. Je partage mon expérience à travers des missions courtes, ou des formations. Au programme : TDD, Clean Code, eXtreme Programming, Scrum, l'Agile, JavaScript, NodeJS, et parfois encore .NET et C#."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 1B98E0
-  secondary: "254484"
+  secondary: 2364AA #"000000" #"254484"
   secondary-dark: 333
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- name: Jérôme Avoustin
+  pic: 1.png
+  position: Software Craftsman @ Lightstream
+  url: http://tweetping.net
   social:
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
+      url: https://twitter.com/jeromeavoustin
+    - title: github
+      url: https://github.com/rehia
     - title: linkedin
-      url: #
+      url: https://fr.linkedin.com/in/jérôme-avoustin-4616743
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+trainers:
+- name: Franck Ernewein
+  pic: franck.png
+  position: CEO/CTO @ Lightstream
+  url: http://tweetping.net
+  trainings: JavaScript, Node JS
   social:
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
+      url: https://twitter.com/franckernewein
+    - title: github
+      url: https://github.com/FranckErnewein
+    - title: linkedin
+      url: https://www.linkedin.com/in/franck-ernewein-ba881b99
+- name: Rui Carvalho
+  pic: rui.png
+  position: Software Craftsman @ ArtOfNet
+  url: http://www.rui.io/
+  trainings: .NET, XP, TDD-Clean Code
+  social:
+    - title: twitter
+      url: https://twitter.com/rhwy
+    - title: github
+      url: https://github.com/rhwy
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/jeromeavoustin
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/rehia
+  - title: bitbucket
+    url: https://bitbucket.org/jeromeavoustin
+  - title: linkedin
+    url: https://fr.linkedin.com/in/jérôme-avoustin-4616743
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Montpellier, France
 
 # Build settings
 markdown: kramdown

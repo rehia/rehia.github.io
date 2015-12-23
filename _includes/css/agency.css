@@ -222,7 +222,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -253,13 +253,14 @@ fieldset[disabled] .btn-xl.active {
         -moz-transition: all .3s;
         transition: all .3s;
         background-image: url(../img/base_logo_titre_noir.png);
-        background-size: auto 200px;
-        min-width: 470px;
-        min-height: 200px;
+        background-size: auto 150px;
+        min-width: 400px;
+        min-height: 150px;
     }
 
     .navbar-default .nav li a {
         color: #000;
+        font-weight: 600;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -292,7 +293,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg-nb2.png);
+    background-image: url(../img/header-bg-2.jpg);
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
